@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button bt1,bt2;
     private ArrayList<Object> arrayList;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +49,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         bt1.setOnClickListener(this);
         bt2.setOnClickListener(this);
+
+
 
     }
     private int a = 0,b=0;
