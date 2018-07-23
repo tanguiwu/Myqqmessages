@@ -79,6 +79,7 @@ public class MutiLayoutAdapter extends BaseAdapter {
                         @Override
                         public void onClick(View view) {
                             Toast.makeText(mContext,"sfas",Toast.LENGTH_SHORT).show();
+                            //试试add
                         }
                     });
                     holder1.img_icon =  convertView.findViewById(R.id.img_icon);
